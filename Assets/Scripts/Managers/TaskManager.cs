@@ -13,4 +13,5 @@ public class TaskManager : MonoBehaviour
     public void Initialize(bool isPhase2) { }
     public TaskData GetActiveTask() => null;
     public void ForceFailActiveTask() { }
+    public void OnPlayerReachedNPC(int npcId) { }
 }
