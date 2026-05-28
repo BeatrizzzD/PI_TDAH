@@ -8,7 +8,7 @@ public static class Constants
     public const int MinEvents = 3;
     public const int MaxEvents = 5;
     public const float MinigameDurationChoice = 8f;
-    public const float MinigameDurationEmail = 12f;
+    public const float MinigameDurationEmail = 30f;
     public const float MinigameDurationDelivery = 10f;
     public const float TaskInteractionRadius = 1.5f;
 }
