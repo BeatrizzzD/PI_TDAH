@@ -16,6 +16,7 @@ public abstract class GameEventBase : MonoBehaviour
     }
 
     protected abstract void OnEventStart();
+    protected virtual void OnEventEnd() { }
 
     private IEnumerator AutoComplete(float duration)
     {
@@ -25,6 +26,7 @@ public abstract class GameEventBase : MonoBehaviour
 
     protected void EndEvent()
     {
+        OnEventEnd();
         onComplete?.Invoke();
     }
 }

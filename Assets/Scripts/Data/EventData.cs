@@ -5,4 +5,5 @@ public class EventData
     public float TriggerTime;
     public float Duration;
     public bool IsActive;
+    public bool HasFired;
 }
