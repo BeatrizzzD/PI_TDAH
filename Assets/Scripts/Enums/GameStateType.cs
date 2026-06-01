@@ -1,1 +1,1 @@
-public enum GameStateType { Playing, MinigameActive, EventTriggered, PhaseComplete }
+public enum GameStateType { Playing, MinigameActive, PhaseComplete }

@@ -58,14 +58,12 @@ public class GameManager : MonoBehaviour
 
     public void OnEventStarted(EventData eventData)
     {
-        State.State = GameStateType.EventTriggered;
         State.IsEventActive = true;
         State.ActiveEvent = eventData;
     }
 
     public void OnEventEnded()
     {
-        State.State = GameStateType.Playing;
         State.IsEventActive = false;
         State.ActiveEvent = null;
     }

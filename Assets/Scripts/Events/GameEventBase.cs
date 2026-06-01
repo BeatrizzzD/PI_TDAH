@@ -6,11 +6,13 @@ public abstract class GameEventBase : MonoBehaviour
 {
     protected EventData currentEvent;
     private Action onComplete;
+    private bool ended;
 
     public void StartEvent(EventData data, Action callback)
     {
         currentEvent = data;
         onComplete = callback;
+        ended = false;
         OnEventStart();
         StartCoroutine(AutoComplete(data.Duration));
     }
@@ -26,6 +28,9 @@ public abstract class GameEventBase : MonoBehaviour
 
     protected void EndEvent()
     {
+        if (ended) return;
+        ended = true;
+        StopAllCoroutines();
         OnEventEnd();
         onComplete?.Invoke();
     }
