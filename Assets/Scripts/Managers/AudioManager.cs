@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip successClip;
     [SerializeField] private AudioClip failureClip;
     [SerializeField] private AudioClip phaseMusicClip;
+    [SerializeField] private AudioClip clickClip;
 
     private void Start()
     {
@@ -23,4 +24,6 @@ public class AudioManager : MonoBehaviour
     public void PlaySuccess() => sfxSource?.PlayOneShot(successClip);
     public void PlayFailure() => sfxSource?.PlayOneShot(failureClip);
     public void SetVolume(float volume) => AudioListener.volume = volume;
+
+    public void PlayClick() => sfxSource?.PlayOneShot(clickClip);
 }
