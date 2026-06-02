@@ -5,15 +5,15 @@ public class SettingsPanel : MonoBehaviour
 {
     private const string VolumeKey = "MasterVolume";
 
+    [SerializeField] private GameObject panelObject;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private Button closeButton;
 
-    private void Start()
+    private void Awake()
     {
         volumeSlider.value = PlayerPrefs.GetFloat(VolumeKey, 1f);
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
-        closeButton.onClick.AddListener(() => gameObject.SetActive(false));
-        gameObject.SetActive(false);
+        closeButton.onClick.AddListener(() => panelObject.SetActive(false));
     }
 
     private void OnVolumeChanged(float value)
@@ -22,7 +22,10 @@ public class SettingsPanel : MonoBehaviour
         AudioListener.volume = value;
     }
 
-    public void Toggle() => gameObject.SetActive(!gameObject.activeSelf);
+    public void Toggle()
+    {
+        panelObject.SetActive(!panelObject.activeSelf);
+    }
 
     public static float GetSavedVolume() => PlayerPrefs.GetFloat(VolumeKey, 1f);
 }
