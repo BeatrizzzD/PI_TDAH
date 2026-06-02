@@ -27,30 +27,45 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Input travado: não dirigir a velocidade aqui — ou está zerada (minigame),
+        // ou o ForceMoveTo está no controle (ImpulseWalk). Sem esse guard, o moveInput
+        // congelado faria o player deslizar pra sempre / ignorar o alvo do impulso.
+        if (!inputEnabled) return;
         rb.linearVelocity = moveInput * moveSpeed;
     }
 
     public void SetInputEnabled(bool enabled)
     {
         inputEnabled = enabled;
-        if (!enabled) rb.linearVelocity = Vector2.zero;
+        if (!enabled)
+        {
+            moveInput = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 
-    public void ForceMove(Vector2 direction, float duration)
+    public void ForceMoveTo(Vector2 target, float maxDuration)
     {
-        StartCoroutine(ForceMoveCoroutine(direction, duration));
+        StartCoroutine(ForceMoveToCoroutine(target, maxDuration));
     }
 
-    private System.Collections.IEnumerator ForceMoveCoroutine(Vector2 direction, float duration)
+    private System.Collections.IEnumerator ForceMoveToCoroutine(Vector2 target, float maxDuration)
     {
         inputEnabled = false;
+        moveInput = Vector2.zero;
         float elapsed = 0f;
-        while (elapsed < duration)
+        const float arriveThreshold = 0.15f;
+
+        // Mira o alvo a cada frame e para ao chegar (ou quando o tempo do evento
+        // estoura). Direção fixa fazia o player ultrapassar o ponto e seguir reto.
+        while (elapsed < maxDuration && Vector2.Distance(rb.position, target) > arriveThreshold)
         {
-            rb.linearVelocity = direction * moveSpeed;
+            Vector2 dir = (target - rb.position).normalized;
+            rb.linearVelocity = dir * moveSpeed;
             elapsed += Time.deltaTime;
             yield return null;
         }
+
         rb.linearVelocity = Vector2.zero;
         inputEnabled = true;
     }

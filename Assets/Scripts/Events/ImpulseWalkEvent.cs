@@ -14,8 +14,7 @@ public class ImpulseWalkEvent : GameEventBase
         player = playerObj.GetComponent<PlayerController>();
         if (player == null) return;
 
-        Vector2 dir = ((Vector2)(impulseTarget.position - playerObj.transform.position)).normalized;
-        player.ForceMove(dir, currentEvent.Duration);
+        player.ForceMoveTo(impulseTarget.position, currentEvent.Duration);
     }
 
     protected override void OnEventEnd()
