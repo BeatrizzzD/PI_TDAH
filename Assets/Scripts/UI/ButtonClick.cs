@@ -7,6 +7,9 @@ public class ButtonClick : MonoBehaviour
     public void OnClick()
     {
         if (clickClip == null) return;
-        AudioSource.PlayClipAtPoint(clickClip, Camera.main.transform.position);
+        // Som de clique não pode depender de Camera.main: numa cena sem câmera
+        // (ex.: Result) ele vinha null e o NullRef bloqueava a própria navegação.
+        Vector3 pos = Camera.main != null ? Camera.main.transform.position : Vector3.zero;
+        AudioSource.PlayClipAtPoint(clickClip, pos);
     }
 }
