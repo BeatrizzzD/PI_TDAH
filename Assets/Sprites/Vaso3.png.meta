@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9e5d869de1676744cabf057fcd3d4463
+guid: 8cb3af2274e1fad479f30e184e3d60e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3431323101051160688
-    second: Picsart_26-06-02_00-14-01-062_0
+      213: 3719652677789418728
+    second: Vaso3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Picsart_26-06-02_00-14-01-062_0
+      name: Vaso3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 95
-        height: 152
+        width: 82
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0780fb33e228e9f20800000000000000
-      internalID: 3431323101051160688
+      spriteID: 8e40873276cde9330800000000000000
+      internalID: 3719652677789418728
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Picsart_26-06-02_00-14-01-062_0: 3431323101051160688
+      Vaso3_0: 3719652677789418728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

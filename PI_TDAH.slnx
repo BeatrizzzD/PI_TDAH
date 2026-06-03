@@ -1,2 +1,4 @@
 ﻿<Solution>
+  <Project Path="PI_TDAH_Runtime.csproj" />
+  <Project Path="PI_TDAH_EditMode.csproj" />
 </Solution>
