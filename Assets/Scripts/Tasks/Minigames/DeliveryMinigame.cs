@@ -13,9 +13,9 @@ public class DeliveryMinigame : MinigameBase
 
     protected override void OnMinigameStart()
     {
-        destinationNpcId = (taskData.NpcId + 1) % Constants.TotalTasks;
-        destinationTransform = FindDestinationNPC(destinationNpcId);
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        destinationNpcId = FindFarthestNpcId();
+        destinationTransform = FindDestinationNPC(destinationNpcId);
 
         instructionText.text = $"Leve o documento para o colega {destinationNpcId + 1}!\nSiga a seta.";
 
@@ -42,6 +42,23 @@ public class DeliveryMinigame : MinigameBase
     {
         if (!isActiveAndEnabled) return;
         if (npcId == destinationNpcId) Complete(true);
+    }
+
+    private int FindFarthestNpcId()
+    {
+        var markers = FindObjectsByType<NPCMarker>(FindObjectsSortMode.None);
+        NPCMarker farthest = null;
+        float maxDist = -1f;
+        Vector2 origin = player != null ? (Vector2)player.position : Vector2.zero;
+
+        foreach (var m in markers)
+        {
+            if (m.NpcId == taskData.NpcId) continue;
+            float dist = Vector2.Distance(origin, m.Position);
+            if (dist > maxDist) { maxDist = dist; farthest = m; }
+        }
+
+        return farthest?.NpcId ?? (taskData.NpcId + 1) % Constants.TotalTasks;
     }
 
     private Transform FindDestinationNPC(int id)

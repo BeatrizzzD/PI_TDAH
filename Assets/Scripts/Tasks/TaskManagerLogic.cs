@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 public static class TaskManagerLogic
 {
@@ -7,9 +8,11 @@ public static class TaskManagerLogic
     public static List<TaskData> GenerateTasks(bool isPhase2)
     {
         var tasks = new List<TaskData>();
+        var shuffled = ShuffleTypes(Constants.TotalTasks);
+
         for (int i = 0; i < Constants.TotalTasks; i++)
         {
-            var type = taskTypes[i % taskTypes.Length];
+            var type = shuffled[i];
             tasks.Add(new TaskData
             {
                 Id = i,
@@ -20,6 +23,20 @@ public static class TaskManagerLogic
             });
         }
         return tasks;
+    }
+
+    private static List<TaskType> ShuffleTypes(int count)
+    {
+        var list = new List<TaskType>();
+        for (int i = 0; i < count; i++)
+            list.Add(taskTypes[i % taskTypes.Length]);
+
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            int j = Random.Range(0, i + 1);
+            (list[i], list[j]) = (list[j], list[i]);
+        }
+        return list;
     }
 
     private static float GetDurationForType(TaskType type) => type switch

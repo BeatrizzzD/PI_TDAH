@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool inputEnabled = true;
+    private Coroutine forceMoveCoroutine;
 
     private void Awake()
     {
@@ -36,6 +37,14 @@ public class PlayerController : MonoBehaviour
 
     public void SetInputEnabled(bool enabled)
     {
+        // Cancela qualquer ForceMoveTo em andamento antes de mudar o estado —
+        // sem isso a coroutine continuaria empurrando o player depois que o evento
+        // termina, causando o bug de "andar sozinho".
+        if (forceMoveCoroutine != null)
+        {
+            StopCoroutine(forceMoveCoroutine);
+            forceMoveCoroutine = null;
+        }
         inputEnabled = enabled;
         if (!enabled)
         {
@@ -46,7 +55,8 @@ public class PlayerController : MonoBehaviour
 
     public void ForceMoveTo(Vector2 target, float maxDuration)
     {
-        StartCoroutine(ForceMoveToCoroutine(target, maxDuration));
+        if (forceMoveCoroutine != null) StopCoroutine(forceMoveCoroutine);
+        forceMoveCoroutine = StartCoroutine(ForceMoveToCoroutine(target, maxDuration));
     }
 
     private System.Collections.IEnumerator ForceMoveToCoroutine(Vector2 target, float maxDuration)
@@ -68,5 +78,6 @@ public class PlayerController : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
         inputEnabled = true;
+        forceMoveCoroutine = null;
     }
 }

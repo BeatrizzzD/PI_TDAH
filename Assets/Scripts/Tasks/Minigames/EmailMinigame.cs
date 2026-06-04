@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class EmailMinigame : MinigameBase
 {
+    [SerializeField] private GameObject emailPanel;
     [SerializeField] private TextMeshProUGUI subjectText;
     [SerializeField] private TextMeshProUGUI bodyText;
     [SerializeField] private TextMeshProUGUI expectedText;
@@ -32,8 +33,9 @@ public class EmailMinigame : MinigameBase
 
     protected override void OnMinigameStart()
     {
-        var s = scenarios[taskData.Id % scenarios.Count];
-        subjectText.text = s.Subject;
+        emailPanel?.SetActive(true);
+        var s = scenarios[Random.Range(0, scenarios.Count)];
+        subjectText.text = $"<size=16><color=#aaaaaa>De: chefe@empresa.com</color></size>\nAssunto: {s.Subject}";
         bodyText.text = s.Body;
         expectedText.text = $"Digite: «{s.Expected}»";
         expectedAnswer = s.Expected;
