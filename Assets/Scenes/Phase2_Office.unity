@@ -138,6 +138,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.19
@@ -181,6 +193,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -826,6 +842,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_Size.x
+      value: 0.663
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_Size.y
+      value: 0.615
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.3075
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8639299
@@ -869,6 +897,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_Name
       value: Bebedouro (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7003,6 +7035,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.95
@@ -7046,6 +7090,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7485,6 +7533,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_Size.x
+      value: 0.663
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_Size.y
+      value: 0.615
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.3075
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8253744
@@ -7528,6 +7588,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_Name
       value: Bebedouro
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8028,6 +8092,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.25
@@ -8072,6 +8148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8085,6 +8165,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.4
@@ -8128,6 +8220,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8296,6 +8392,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.13
@@ -8340,6 +8448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8353,6 +8465,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.456
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.228
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.42
@@ -8396,6 +8520,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
       propertyPath: m_Name
       value: Vaso
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8458,7 +8586,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -0.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8468,7 +8596,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1}
+  m_Size: {x: 0.8, y: 0.5}
   m_EdgeRadius: 0
 --- !u!50 &1318941441
 Rigidbody2D:
@@ -8555,7 +8683,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1318941443
 Transform:
   m_ObjectHideFlags: 0
@@ -8767,6 +8895,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0455
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_Size.y
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.98
@@ -8818,6 +8958,10 @@ PrefabInstance:
     - target: {fileID: 7356122331019759653, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
       propertyPath: m_SortingLayerID
       value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8897,6 +9041,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.061221242
@@ -8940,6 +9096,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9019,6 +9179,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.73
@@ -9063,6 +9235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9087,6 +9263,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.8
@@ -9130,6 +9318,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10808,6 +11000,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0455
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_Size.y
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -10859,6 +11063,10 @@ PrefabInstance:
     - target: {fileID: 7356122331019759653, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
       propertyPath: m_SortingLayerID
       value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b1606f761bb3c5142b01c318e6a1a629, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11381,6 +11589,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3035002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7890001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183327410233665834, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39450005
+      objectReference: {fileID: 0}
     - target: {fileID: 5216845747445161098, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.81
@@ -11424,6 +11644,10 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
