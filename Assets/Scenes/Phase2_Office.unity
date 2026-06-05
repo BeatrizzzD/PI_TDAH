@@ -195,6 +195,14 @@ PrefabInstance:
       value: Mesa (7)
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
@@ -897,6 +905,14 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_Name
       value: Bebedouro (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -7092,6 +7108,14 @@ PrefabInstance:
       value: Mesa (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
@@ -7588,6 +7612,14 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_Name
       value: Bebedouro
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: 5dca1b685c65de74f8261dc4f45c5181, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -8149,6 +8181,14 @@ PrefabInstance:
       value: Mesa (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
@@ -8220,6 +8260,14 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -8449,6 +8497,14 @@ PrefabInstance:
       value: Mesa (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
@@ -8520,6 +8576,14 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
       propertyPath: m_Name
       value: Vaso
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: ff8f8c1b95bcf39449324fce0c79b8f2, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -9098,6 +9162,14 @@ PrefabInstance:
       value: Mesa (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
@@ -9236,6 +9308,14 @@ PrefabInstance:
       value: Mesa (5)
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
@@ -9318,6 +9398,14 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -11644,6 +11732,14 @@ PrefabInstance:
     - target: {fileID: 6192862991338339920, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_Name
       value: Mesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1137832353
       objectReference: {fileID: 0}
     - target: {fileID: 7356122331019759653, guid: b6af2c0aa511e4f45a22f679d8fe8d44, type: 3}
       propertyPath: m_SpriteSortPoint
